@@ -45,13 +45,14 @@
             class="img-fluid rounded"
           />
           <video
-            *ngIf="activeMedia.type === 'video'"
             [src]="activeMedia.src"
-            autoplay
             muted
+            autoplay
             loop
+            playsinline
+            preload="auto"
             class="w-100 rounded"
-          ></video>
+        ></video>
         </ng-container>
       </div>
     </div>

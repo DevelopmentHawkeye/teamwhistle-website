@@ -36,6 +36,8 @@ export class GuideComponent implements AfterViewInit {
 
   @ViewChildren('card', { read: ElementRef })
   cards!: QueryList<ElementRef>;
+  @ViewChildren('activeVideo', { read: ElementRef })
+  videos!: QueryList<ElementRef<HTMLVideoElement>>;
 
   activeChapterIndex = 0;
   activeCardIndex = 0;
@@ -75,6 +77,18 @@ export class GuideComponent implements AfterViewInit {
         this.activeCardIndex = index;
         this.activeChapterIndex = chapterIndex;
         this.activeMedia = this.flatSteps[index].step.media;
+
+        this.activeMedia = this.flatSteps[index].step.media;
+
+        requestAnimationFrame(() => {
+          const video = this.videos?.first?.nativeElement;
+          if (!video) return;
+
+          video.currentTime = 0;
+          video.play().catch(() => {
+            console.log('Autoplay blocked');
+          });
+        });
       }
     },
     {
@@ -163,8 +177,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Starting a match',
           content: 'To start a match, tap on one in the list and in the detail view go to the start button at the bottom. This will take you into a set of screens purely for this match.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/2startingamatch.mp4'
           }
         },
         {
@@ -173,7 +187,7 @@ export class GuideComponent implements AfterViewInit {
           content: 'The first page in your match screen is the time view. Here you can see on the top left the remainigtime and elapsedtime and on the right the remaining penalty cornerseconds aswell as how many players are currently allowed to be on the pitch per team. To start or pause the time, tap the start/stop button at the bottom. You also have the ability to start a countdown for the time by tapping the countdown icon on the bottom left. This is will start a countdown of a few seconds and automatically start the time when the countdown is finished. When the time is paused, a timer keeps track of how long the time is has been paused. While the time is running, the next expiring card will appear in the middle.',
           media: {
             type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            src: '/assets/guidefootage/2timeview.png'
           }
         },
         {
@@ -181,8 +195,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Goals view',
           content: 'The goals view allows you to add goals to either team by holding the counter for 1 second. You can see the history of your goals by tapping the history button at the top. You can delete goals in this view by swiping a goal to the left and tapping the trash button.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/2goalsview.mp4'
           }
         },
         {
@@ -190,8 +204,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Cards view',
           content: 'In the cards view you can add cards by tapping the add button on top. In here you can select the team, reason, backnumber, color and if it was for a captain. To delete a card, simply a tap one on the list. When a card is over you will receive a popup displaying the card color, number and team for which a card has expired.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/2cardsview.mp4'
           }
         },
         {
@@ -200,7 +214,7 @@ export class GuideComponent implements AfterViewInit {
           content: 'TeamWhistle keeps track of your workout metrics such as distrance traveled and your heartrate. In this view you can see your real time values of these metrics.',
           media: {
             type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            src: '/assets/guidefootage/2workoutview.png'
           }
         },
         {
@@ -209,7 +223,7 @@ export class GuideComponent implements AfterViewInit {
           content: 'The settings page lets take drastic changes to the match, such as changing the period and starting the shootouts. Simply tap on one of the buttons to perform their described action.',
           media: {
             type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            src: '/assets/guidefootage/2settingsview.png'
           }
         },
       ]
@@ -223,8 +237,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Starting shootouts',
           content: 'To start shootouts, tap the Start Shootouts button the settings view and confirm the prompt. This will change the tabs you have available. The cards and workout pages will still be same, but the goals and time views will change.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/3startingshootouts.mp4'
           }
         },
         {
@@ -232,8 +246,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Shootout timer',
           content: 'In the center is the timer page with purely the countdown seconds. The controls are the same as the normal match timer, however you can only reset the countdown instead of stop it halfway through.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/3shootoutstimer.mp4'
           }
         },
         {
@@ -241,8 +255,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Shootout goals',
           content: 'The shootout goals will be shown as dots with the color indicating if the was scored or not. Simply press the miss or goal button the change the color of currently selected shootout and the selection will automatically go to the next. You can use the buttons on the right to delete a shootout or change the order. If enough shootouts are scored by one team to decide a winner, the app will show a text at the top indicating that a team has won the shootout.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/3shootoutsgoals.mp4'
           }
         },
       ]
@@ -265,8 +279,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Hosting a match',
           content: 'To allow others to join your match, go to settings view and tap on Synchronisation. Input your name and tap launch. You will be given a key at the top that allows others to join you. Do not share this key publicly, as it is the only authentication needed for others to join you.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/4hostingamatch.mp4'
           }
         },
         {
@@ -274,8 +288,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Joining a match',
           content: 'To join a match, go to your matches list and tap the hotspot icon on the top right. Insert your name and the key of the hoster and tap join. This will automatically put you into the match views.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/4joiningamatch.mp4'
           }
         },
         {
@@ -292,8 +306,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Stopping synchronisation',
           content: 'To stop the synchronisation go to the match settings, tap synchronisation and tap disband. This will put you out of the synchronisation, but you will still be inside the match views. Disclaimer: Anyone can disband a match, but this will have no effect on other users and your name will still be in the list for others to see.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/4stoppingsynchronisation.mp4'
           }
         },
       ]
@@ -317,7 +331,7 @@ export class GuideComponent implements AfterViewInit {
           content: 'While in a match and on the time view, you can make scrolling the digital crown perform an action while the screen is active. This action can be configured in the settings. This is useful if you want to stop/pause the time while not looking at the screen or quickly add a card without having to swipe to the card views.',
           media: {
             type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            src: '/assets/guidefootage/5scrollaction.png'
           }
         },
         {
@@ -325,8 +339,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Captain backnumbers',
           content: 'While inside the add match view, you can swipe to the right in the club list view to type the backnumber of the club. This number will be shown during a match at the goals page next to the name of the club above the goal buttons.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/5captainnumbers.mp4'
           }
         },
         {
@@ -334,8 +348,8 @@ export class GuideComponent implements AfterViewInit {
           title: 'Action Button',
           content: 'TeamWhistle supports the use of the action button. To use it for the app, go to your apple watch settings -> Action Button -> Workouts and choose TeamWhistle. When outside a match, the action button will start the next upcoming future match automatically. During a match, the action button can be used to pause or start the time.',
           media: {
-            type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            type: 'video',
+            src: '/assets/guidefootage/5actionbutton.mp4'
           }
         },
       ]
