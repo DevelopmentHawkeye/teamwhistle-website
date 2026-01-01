@@ -42,29 +42,52 @@ export class GuideComponent implements AfterViewInit {
   activeMedia: any;
 
   ngAfterViewInit() {
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const index = Number(
-              entry.target.getAttribute('data-index')
-            );
-            const chapterIndex = Number(
-              entry.target.getAttribute('data-chapter')
-            );
+  const observer = new IntersectionObserver(
+    entries => {
+      const viewportCenter = window.innerHeight / 2;
 
-            this.activeCardIndex = index;
-            this.activeChapterIndex = chapterIndex;
-            this.activeMedia = this.flatSteps[index].step.media;
-            console.log(this.activeCardIndex)
-          }
-        });
-      },
-      { threshold: 0.6 }
-    );
+      let closestEntry: IntersectionObserverEntry | null = null;
+      let closestDistance = Infinity;
 
-    this.cards.forEach(card => observer.observe(card.nativeElement));
-  }
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+
+        const rect = entry.boundingClientRect;
+        const cardCenter = rect.top + rect.height / 2;
+        const distance = Math.abs(viewportCenter - cardCenter);
+
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestEntry = entry;
+        }
+      });
+
+      if (closestEntry) {
+        closestEntry = closestEntry as IntersectionObserverEntry;
+        
+        const index = Number(
+          closestEntry.target.getAttribute('data-index')
+        );
+        const chapterIndex = Number(
+          closestEntry.target.getAttribute('data-chapter')
+        );
+
+        this.activeCardIndex = index;
+        this.activeChapterIndex = chapterIndex;
+        this.activeMedia = this.flatSteps[index].step.media;
+      }
+    },
+    {
+      rootMargin: '-40% 0px -40% 0px',
+      threshold: [0.25, 0.5, 0.75]
+    }
+  );
+
+  this.cards.forEach(card =>
+    observer.observe(card.nativeElement)
+  );
+}
+
 
   scrollToChapter(chapterIndex: number) {
   const target = this.cards.find(
