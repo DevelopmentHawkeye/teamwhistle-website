@@ -1,0 +1,42 @@
+<!-- Chapter Selector -->
+<nav class="chapter-nav">
+  <button
+    *ngFor="let chapter of chapters"
+    (click)="selectChapter(chapter.number)"
+    [class.active]="chapter.number === activeChapterNumber"
+  >
+    {{ chapter.number }}. {{ chapter.title }}
+  </button>
+</nav>
+
+<div class="guide">
+    <div class="row">
+        <div class="col-6">
+            <!-- Text column -->
+            <div class="text">
+                <ng-container *ngIf="activeChapter as chapter">
+                <section
+                    *ngFor="let step of chapter.steps"
+                    class="step"
+                    [attr.data-image]="step.image"
+                    [attr.id]="step.id"
+                    #sections
+                >
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">{{ step.title }}</h2>
+                            <p class="card-text">{{ step.content }}</p>
+                        </div>
+                    </div>
+                </section>
+                </ng-container>
+            </div>
+        </div>
+        <div class="col-6">
+            <!-- Sticky visual -->
+            <div class="visual">
+                <img [src]="currentImage" alt="currentImage" />
+            </div>
+        </div>
+    </div>
+</div>
