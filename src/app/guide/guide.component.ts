@@ -7,19 +7,14 @@ import {
   QueryList,
   ViewChildren
 } from '@angular/core';
-import { ChangeDetectorRef } from '@angular/core';
-
 
 @Component({
   imports: [CommonModule],
   selector: 'app-root',
-  styleUrl: './guide.component.css',
-  templateUrl: './guide.component.html'
+  templateUrl: './guide.component.html',
+  styleUrls: ['./guide.component.css'],
 })
 export class GuideComponent implements AfterViewInit {
-
-constructor(private cdr: ChangeDetectorRef) {}
-
 
   flatSteps: GuideStep[] = [];
   activeSection: any;
@@ -50,16 +45,18 @@ constructor(private cdr: ChangeDetectorRef) {}
     const observer = new IntersectionObserver(
       entries => {
         entries.forEach(entry => {
-          if (entry.isIntersecting && entry.intersectionRatio > 0.6) {
-            const index = Number(entry.target.getAttribute('data-index'));
-            const chapterIndex = Number(entry.target.getAttribute('data-chapter'));
+          if (entry.isIntersecting) {
+            const index = Number(
+              entry.target.getAttribute('data-index')
+            );
+            const chapterIndex = Number(
+              entry.target.getAttribute('data-chapter')
+            );
 
             this.activeCardIndex = index;
             this.activeChapterIndex = chapterIndex;
             this.activeMedia = this.flatSteps[index].step.media;
-
-            // force UI update
-            this.cdr.detectChanges();
+            console.log(this.activeCardIndex)
           }
         });
       },
