@@ -1,50 +1,14 @@
-.chapter-nav {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: white;
-  display: flex;
-  gap: 1rem;
-  padding: 1rem 0;
+/* styles.css */
+.media-container {
+  top: 150px; /* spacing from top */
 }
 
-.chapter-nav button {
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  border: 1px solid #ddd;
-  background: transparent;
-  cursor: pointer;
+.card {
+  min-height: 200px;
 }
 
-.chapter-nav button.active {
-  background: black;
-  color: white;
-  border-color: black;
-}
-
-
-.step {
-  min-height: 70vh; /* was too tall */
-  padding: 2rem 0;
-}
-
-.visual {
-  position: sticky;
-  padding-top: 20px;
-  align-self: start;
-}
-
-.visual img {
-  width: 100%;
-  max-width: 420px;
-  border-radius: 12px;
-}
-
-.step {
-  min-height: 25vh;
-  padding: 1.5rem 0;
-}
-
-.step + .step {
-  margin-top: 3rem;
+.active-card {
+  border: 2px solid #0d6efd;
+  box-shadow: 0 0.5rem 1rem rgba(13, 110, 253, 0.15);
+  transform: translateX(4px);
 }

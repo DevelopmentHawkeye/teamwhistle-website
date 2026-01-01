@@ -1,42 +1,59 @@
-<!-- Chapter Selector -->
-<nav class="chapter-nav">
-  <button
-    *ngFor="let chapter of chapters"
-    (click)="selectChapter(chapter.number)"
-    [class.active]="chapter.number === activeChapterNumber"
-  >
-    {{ chapter.number }}. {{ chapter.title }}
-  </button>
+<!-- Top Chapter Nav -->
+<nav class="chapter-nav sticky-top bg-white py-2 border-bottom">
+  <div class="container d-flex gap-3 overflow-auto">
+    <button
+      *ngFor="let chapter of data; let i = index"
+      class="btn btn-sm"
+      [class.btn-primary]="activeChapterIndex === i"
+      [class.btn-outline-secondary]="activeChapterIndex !== i"
+      (click)="scrollToChapter(i)"
+    >
+      {{ chapter.number }}. {{ chapter.title }}
+    </button>
+  </div>
 </nav>
 
-<div class="guide">
-    <div class="row">
-        <div class="col-6">
-            <!-- Text column -->
-            <div class="text">
-                <ng-container *ngIf="activeChapter as chapter">
-                <section
-                    *ngFor="let step of chapter.steps"
-                    class="step"
-                    [attr.data-image]="step.image"
-                    [attr.id]="step.id"
-                    #sections
-                >
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="card-title">{{ step.title }}</h2>
-                            <p class="card-text">{{ step.content }}</p>
-                        </div>
-                    </div>
-                </section>
-                </ng-container>
-            </div>
+<div class="container my-5">
+  <div class="row">
+
+    <div class="col-md-6">
+      <div
+        class="card mb-4"
+        *ngFor="let item of flatSteps; let i = index"
+        #card
+        [attr.data-index]="i"
+        [attr.data-chapter]="item.chapterIndex"
+        [class.active-card]="activeCardIndex === i"
+        >
+        <div class="card-body">
+            <small class="text-muted">
+            {{ item.chapterTitle }}
+            </small>
+            <h5>{{ item.step.title }}</h5>
+            <p>{{ item.step.content }}</p>
         </div>
-        <div class="col-6">
-            <!-- Sticky visual -->
-            <div class="visual">
-                <img [src]="currentImage" alt="currentImage" />
-            </div>
-        </div>
+      </div>
     </div>
+
+    <!-- Right sticky media -->
+    <div class="col-md-6">
+      <div class="sticky-top media-container">
+        <ng-container *ngIf="activeMedia">
+          <img
+            *ngIf="activeMedia.type === 'image'"
+            [src]="activeMedia.src"
+            class="img-fluid rounded"
+          />
+          <video
+            *ngIf="activeMedia.type === 'video'"
+            [src]="activeMedia.src"
+            autoplay
+            muted
+            loop
+            class="w-100 rounded"
+          ></video>
+        </ng-container>
+      </div>
+    </div>
+  </div>
 </div>
