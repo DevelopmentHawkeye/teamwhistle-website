@@ -271,7 +271,7 @@ export class GuideComponent implements AfterViewInit {
           content: 'Synchronisation is a unique feature that allows user to connect their match to eachother so that their information is exactly the same for both. This is helpful to ensure that the time remainingtime, goals or cards are the same for either referee. Obviously, an internet connection is required to access this feature.',
           media: {
             type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            src: '/assets/homepageimages/sync.png'
           }
         },
         {
@@ -298,7 +298,7 @@ export class GuideComponent implements AfterViewInit {
           content: 'While synchronisation is active, you will see a hotspot icon on the top left to indicate if the connection is still active. Yellow indicates its checking the match, green means it succeeded and red means a failure to fetch the match. In the synchronisation page you can see all users that have joined as well as a crown icon indicating who hosted it.',
           media: {
             type: 'image',
-            src: '/assets/guidefootage/1homescreen.png'
+            src: '/assets/guidefootage/4syncduringmatch.png'
           }
         },
         {
