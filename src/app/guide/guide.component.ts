@@ -271,7 +271,7 @@ export class GuideComponent implements AfterViewInit {
           content: 'Synchronisation is a unique feature that allows user to connect their match to eachother so that their information is exactly the same for both. This is helpful to ensure that the time remainingtime, goals or cards are the same for either referee. Obviously, an internet connection is required to access this feature.',
           media: {
             type: 'image',
-            src: '/assets/homepageimages/sync.png'
+            src: '/assets/guidefootage/4whatissynchronisation.png'
           }
         },
         {
