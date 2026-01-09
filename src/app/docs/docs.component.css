@@ -1,0 +1,32 @@
+.docs-layout {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 260px;
+  padding: 1rem;
+  border-right: 1px solid #e0e0e0;
+
+  position: sticky;
+  top: 80px;
+
+  height: 100vh;
+  overflow-y: auto;
+}
+
+
+.sidebar li {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.sidebar li.active {
+  font-weight: bold;
+  background: #f5f5f5;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+}

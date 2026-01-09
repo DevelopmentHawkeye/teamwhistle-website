@@ -1,0 +1,19 @@
+<div class="docs-layout">
+  <div class="sticky">
+    <aside class="sidebar">
+      <ul>
+        <li
+          *ngFor="let section of docs"
+          (click)="selectSection(section)"
+          [class.active]="section.id === activeSection.id"
+        >
+          {{ section.title }}
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <main class="content">
+    <app-doc-section [section]="activeSection"></app-doc-section>
+  </main>
+</div>
