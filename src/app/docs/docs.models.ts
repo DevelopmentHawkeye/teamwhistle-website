@@ -24,7 +24,6 @@ export interface TextBlock extends BaseBlock {
 export interface ImageBlock extends BaseBlock {
   type: 'image';
   src: string;
-  caption?: string;
 }
 
 export interface TipBlock extends BaseBlock {

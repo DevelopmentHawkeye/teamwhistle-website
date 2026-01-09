@@ -15,6 +15,7 @@ export class DocsComponent {
   activeSection: DocSection = this.docs[0];
 
   selectSection(section: DocSection) {
+    window.scrollTo(0, 0);
     this.activeSection = section;
   }
 }

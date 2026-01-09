@@ -11,8 +11,7 @@ import { CommonModule } from '@angular/common';
       <p *ngSwitchCase="'text'">{{ block .content }}</p>
 
       <figure *ngSwitchCase="'image'">
-        <img [src]="block.src" width="200px" />
-        <figcaption *ngIf="block.caption">{{ block.caption }}</figcaption>
+        <img [src]="block.src" width="200px" style="border-radius: 10px;" />
       </figure>
 
       <h3 *ngSwitchCase="'heading'">{{ block.content }}</h3>
