@@ -17,9 +17,12 @@
     "@angular/platform-browser": "19.2.17",
     "@angular/platform-browser-dynamic": "19.2.17",
     "@angular/router": "19.2.17",
+    "@types/feather-icons": "^4.29.4",
     "bootstrap": "^5.3.8",
+    "feather-icons": "^4.29.2",
     "ngx-bootstrap": "^19.0.2",
     "rxjs": "~7.8.0",
+    "simple-icons": "^16.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },

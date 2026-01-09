@@ -17,12 +17,12 @@ import { CommonModule } from '@angular/common';
       <h3 *ngSwitchCase="'heading'">{{ block.content }}</h3>
 
       <div class="tip" *ngSwitchCase="'tip'">
-        <h4>Tip</h4>
+        <h4>💡 Tip</h4>
         {{ block.content }}
       </div>
 
       <div class="warning" *ngSwitchCase="'warning'">
-        <h4>Warning</h4>
+        <h4>⚠️ Warning</h4>
         {{ block.content }}
       </div>
 
