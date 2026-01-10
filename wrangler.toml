@@ -1,0 +1,6 @@
+name = "teamwhistle-website"
+type = "javascript"
+
+[build]
+command = "npm run build"
+dir = "dist/teamwhistle-website"
