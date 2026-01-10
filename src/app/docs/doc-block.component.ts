@@ -1,14 +1,14 @@
 import { Component, Input } from '@angular/core';
-import { DocBlock } from './docs.models';
+import { TranslatePipe } from '@ngx-translate/core';
 
 
 @Component({
-  imports: [],
+  imports: [TranslatePipe],
   selector: 'app-doc-block',
   template: `
 @switch (block.type) {
   @case ('text') {
-    <p>{{ block .content }}</p>
+    <p>{{ block.content | translate }}</p>
   }
   @case ('image') {
     <figure>
@@ -16,18 +16,18 @@ import { DocBlock } from './docs.models';
     </figure>
   }
   @case ('heading') {
-    <h3>{{ block.content }}</h3>
+    <h3>{{ block.content | translate }}</h3>
   }
   @case ('tip') {
     <div class="tip">
       <h4>💡 Tip</h4>
-      {{ block.content }}
+      {{ block.content | translate }}
     </div>
   }
   @case ('warning') {
     <div class="warning">
       <h4>⚠️ Warning</h4>
-      {{ block.content }}
+      {{ block.content | translate }}
     </div>
   }
 }

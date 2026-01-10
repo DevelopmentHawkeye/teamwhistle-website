@@ -7,7 +7,7 @@
             (click)="selectSection(section)"
             [class.active]="section.id === activeSection.id"
             >
-            {{ section.title }}
+            {{ section.title | translate }}
           </li>
         }
       </ul>

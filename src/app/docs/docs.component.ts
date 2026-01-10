@@ -3,9 +3,10 @@ import { DOCS } from './docs.data';
 import { DocSection } from './docs.models';
 
 import { DocSectionComponent } from './doc-section.component';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
-  imports: [DocSectionComponent],
+  imports: [DocSectionComponent, TranslatePipe],
   selector: 'app-docs',
   templateUrl: './docs.component.html',
   styleUrls: ['./docs.component.css']
