@@ -1,17 +1,17 @@
 <div class="qna-container">
-  <h2>Questions & Answers</h2>
+  <h2>{{ 'qna.title' | translate }}</h2>
 
   @for (qna of qnaList; track qna; let i = $index) {
     <div class="qna-item">
       <div class="question" (click)="toggle(i)">
-        {{ qna.question }}
+        {{ qna.question | translate }}
         <span class="icon">
           {{ qna.isOpen ? '−' : '+' }}
         </span>
       </div>
       @if (qna.isOpen) {
         <div class="answer">
-          {{ qna.answer }}
+          {{ qna.answer | translate }}
         </div>
       }
     </div>
