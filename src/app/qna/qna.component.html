@@ -1,16 +1,19 @@
 <div class="qna-container">
   <h2>Questions & Answers</h2>
 
-  <div class="qna-item" *ngFor="let qna of qnaList; let i = index">
-    <div class="question" (click)="toggle(i)">
-      {{ qna.question }}
-      <span class="icon">
-        {{ qna.isOpen ? '−' : '+' }}
-      </span>
+  @for (qna of qnaList; track qna; let i = $index) {
+    <div class="qna-item">
+      <div class="question" (click)="toggle(i)">
+        {{ qna.question }}
+        <span class="icon">
+          {{ qna.isOpen ? '−' : '+' }}
+        </span>
+      </div>
+      @if (qna.isOpen) {
+        <div class="answer">
+          {{ qna.answer }}
+        </div>
+      }
     </div>
-
-    <div class="answer" *ngIf="qna.isOpen">
-      {{ qna.answer }}
-    </div>
-  </div>
+  }
 </div>

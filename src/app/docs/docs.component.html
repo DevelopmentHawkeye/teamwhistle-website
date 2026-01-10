@@ -2,13 +2,14 @@
   <div class="sticky">
     <aside class="sidebar">
       <ul>
-        <li
-          *ngFor="let section of docs"
-          (click)="selectSection(section)"
-          [class.active]="section.id === activeSection.id"
-        >
-          {{ section.title }}
-        </li>
+        @for (section of docs; track section) {
+          <li
+            (click)="selectSection(section)"
+            [class.active]="section.id === activeSection.id"
+            >
+            {{ section.title }}
+          </li>
+        }
       </ul>
     </aside>
   </div>

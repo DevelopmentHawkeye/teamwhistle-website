@@ -1,8 +1,8 @@
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 
 @Component({
-  imports: [CommonModule],
+  imports: [],
   selector: 'app-qna',
   templateUrl: './qna.component.html',
   styleUrls: ['./qna.component.css']

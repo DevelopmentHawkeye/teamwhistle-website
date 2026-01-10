@@ -1,33 +1,37 @@
 import { Component, Input } from '@angular/core';
 import { DocBlock } from './docs.models';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
-  imports: [CommonModule],
+  imports: [],
   selector: 'app-doc-block',
   template: `
-    <ng-container [ngSwitch]="block.type">
-
-      <p *ngSwitchCase="'text'">{{ block .content }}</p>
-
-      <figure *ngSwitchCase="'image'">
-        <img [src]="block.src" width="200px" style="border-radius: 10px;" />
-      </figure>
-
-      <h3 *ngSwitchCase="'heading'">{{ block.content }}</h3>
-
-      <div class="tip" *ngSwitchCase="'tip'">
-        <h4>💡 Tip</h4>
-        {{ block.content }}
-      </div>
-
-      <div class="warning" *ngSwitchCase="'warning'">
-        <h4>⚠️ Warning</h4>
-        {{ block.content }}
-      </div>
-
-    </ng-container>
-  `,
+@switch (block.type) {
+  @case ('text') {
+    <p>{{ block .content }}</p>
+  }
+  @case ('image') {
+    <figure>
+      <img [src]="block.src" width="200px" style="border-radius: 10px;" />
+    </figure>
+  }
+  @case ('heading') {
+    <h3>{{ block.content }}</h3>
+  }
+  @case ('tip') {
+    <div class="tip">
+      <h4>💡 Tip</h4>
+      {{ block.content }}
+    </div>
+  }
+  @case ('warning') {
+    <div class="warning">
+      <h4>⚠️ Warning</h4>
+      {{ block.content }}
+    </div>
+  }
+}
+`,
   styles: [`
     .tip {
       background: #e8f5e9;
