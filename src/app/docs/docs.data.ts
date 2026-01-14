@@ -132,7 +132,6 @@ export const DOCS: DocSection[] = [
     blocks: [
       { type: 'text', content: 'docs.location.text1' },
       { type: 'warning', content: 'docs.location.warning1' },
-      { type: 'image', src: 'assets/docs/location.png'},
       { type: 'heading', content: 'docs.location.heading1' },
       { type: 'text', content: 'docs.location.text2' },
       { type: 'tip', content: 'docs.location.tip1' },

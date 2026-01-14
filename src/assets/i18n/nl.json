@@ -106,7 +106,7 @@
             "tip1": "Je kunt de kalibratie op elk moment wijzigen door nieuwe waarden in te voeren en op 'Confirm Calibration' te drukken. De heatmap wordt bijgewerkt.",
             "heading2": "Heatmap",
             "text3": "Na kalibratie kun je een heatmap van je positie bekijken. TeamWhistle genereert elke 10 seconden een kleine rode stip met lage opacity tijdens actieve periodes.",
-            "warning2": "Heatmap-gegevens worden alleen opgeslagen zolang de app open is. Verwijder alle data via 'Delete all data' in het locatie-scherm. De gegevens worden niet opgeslagen in de database en verdwijnen bij afsluiten van de app."
+            "warning2": "Locatie gegevens worden alleen opgeslagen zolang de app open is. Alle gegevens worden niet opgeslagen in de database en verdwijnen bij afsluiten van de app."
         },
         "settings": {
             "title": "Instellingen",

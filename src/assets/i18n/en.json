@@ -106,7 +106,7 @@
             "tip1": "You can change the calibration at any time by reentering the calibration values and tapping 'Confirm Calibration'. This will update the heatmap accordingly.",
             "heading2": "Heatmap",
             "text3": "Once calibrated, you can view a heatmap of your positioning on the pitch. TeamWhistle will generate a small low opacity red dot every 10 seconds while the match timer is running in a non break period.",
-            "warning2": "The data of your heatmap will stored while the app is open. To delete your data, go to the location view and on the first page tap 'Delete all data'. This will reset the heatmap aswell. All data will also not be stored on the database and will be discarded when closing the app."
+            "warning2": "Your location data will stored while the app is open. All data will not be stored on the database and will be discarded when closing the app."
         },
         "settings": {
             "title": "Settings",
