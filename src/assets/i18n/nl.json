@@ -99,10 +99,10 @@
         },
         "location": {
             "title": "Locatie",
-            "text1": "TeamWhistle kan je locatie gebruiken om heatmaps van je positie op het veld te tonen. Ga naar instellingen tijdens een wedstrijd en druk op 'Location'.",
+            "text1": "TeamWhistle kan je locatie gebruiken om heatmaps en workout routes van je positie op het veld te tonen. Tijdens een wedstrijd worden altijd workout routes gemaakt en opgeslagen indien je daarvoor toestemming heb gegeven. Ga naar instellingen tijdens een wedstrijd en druk op 'Location' om een hittekaart te maken.",
             "warning1": "Zorg dat je locatie toegang hebt toegestaan in je Watch-instellingen. TeamWhistle heeft alleen toegang nodig tijdens gebruik van de app.",
             "heading1": "Kalibratie",
-            "text2": "Open de locatieweergave en druk op 'Start Tracking' om kalibratie te starten. TeamWhistle moet de positie van de linkeronder- en rechterbovenhoek van het veld kennen. Je hebt 3 opties: kies een preset van hockeyvelden, gebruik je huidige locatie door naar de hoeken te lopen, of selecteer een plek op de kaart (alleen buiten).",
+            "text2": "TeamWhistle moet de positie van de linkerbovenhoek en rechteronderhoek van het veld kennen. Je hebt 3 opties: kies een preset van hockeyvelden, gebruik je huidige locatie door naar de hoeken te lopen, of selecteer een plek op de kaart (alleen buiten).",
             "tip1": "Je kunt de kalibratie op elk moment wijzigen door nieuwe waarden in te voeren en op 'Confirm Calibration' te drukken. De heatmap wordt bijgewerkt.",
             "heading2": "Heatmap",
             "text3": "Na kalibratie kun je een heatmap van je positie bekijken. TeamWhistle genereert elke 10 seconden een kleine rode stip met lage opacity tijdens actieve periodes.",
@@ -126,7 +126,7 @@
             "text1": "TeamWhistle ondersteunt de Apple Watch Ultra. Je kunt TeamWhistle toewijzen aan de Actieknop in de Apple Watch-instellingen. Standaard opent de app en start de eerstvolgende wedstrijd in de toekomst.",
             "warning1": "Als er geen komende wedstrijden zijn, opent de knop gewoon de app. Voltooi eerst de startgids als je dat nog niet hebt gedaan.",
             "heading1": "Tijdens een wedstrijd",
-            "text2": "Tijdens een wedstrijd pauzeert of hervat de Actieknop de tijd."
+            "text2": "Tijdens een wedstrijd start de actieknop de strafcornerafteller. Je kunt de wedstrijd pauzeren of hervatten door tegelijkertijd op de zijknop en Actieknop te drukken."
         }
     },
     "qna": {
