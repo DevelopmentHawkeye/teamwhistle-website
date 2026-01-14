@@ -13,7 +13,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent implements AfterViewInit {
-  title = 'teamwhistle-website';
+  title = 'teamwhistle';
   
   discordIcon: SafeHtml;
   constructor(private sanitizer: DomSanitizer, private translate: TranslateService) {
