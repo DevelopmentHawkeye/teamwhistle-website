@@ -99,10 +99,10 @@
         },
         "location": {
             "title": "Location",
-            "text1": "TeamWhistle can use your location to provide heatmaps of your positioning on the pitch. To use location services, go to the settings view while in a match and tap 'Location'.",
+            "text1": "TeamWhistle can use your location to provide heatmaps and workout routes of your positioning on the pitch. TeamWhistle will always create workout routes and store them if you have given permission. To use location services, go to the settings view while in a match and tap 'Location'.",
             "warning1": "Make sure you have allowed access to your location before using this feature. You can change this at any time in your watch settings -> Location Services -> TeamWhistle. TeamWhistle only needs access to your location while the app is being used.",
             "heading1": "Calibration",
-            "text2": "When first openeing the location view, tap the 'Start Tracking' to begin calibration. This will bring you the the next screen where you can calibrate your position on the pitch. TeamWhistle needs to know position ofthe Bottom-Left and Top-Right corners of the pitch. You have 3 ways to calibrate. First, you can chose from a preset of hockey pitches. This is a rather small list, but if by chance yours is on the list it's the easiest way. Second, you can use your current location. This requires you to go to the corners of the pitch. Lastly, you can select from the map. This obviously only works in outdoor environments, but can you allow you to quickly zoom in on a spot and select it.",
+            "text2": "TeamWhistle needs to know position of the Top-Left and Bottom-Right corners of the pitch. You have 3 ways to calibrate. First, you can chose from a preset of hockey pitches. Second, you can use your current location. This requires you to go to the corners of the pitch. Lastly, you can select from the map. This obviously only works in outdoor environments, but can you allow you to quickly zoom in on a spot and select it.",
             "tip1": "You can change the calibration at any time by reentering the calibration values and tapping 'Confirm Calibration'. This will update the heatmap accordingly.",
             "heading2": "Heatmap",
             "text3": "Once calibrated, you can view a heatmap of your positioning on the pitch. TeamWhistle will generate a small low opacity red dot every 10 seconds while the match timer is running in a non break period.",
@@ -126,7 +126,7 @@
             "text1": "TeamWhistle supports functionality for the Apple Watch Ultra. You can assign TeamWhistle to the Action Button in the Apple Watch settings app. The default action is to open the app and start the most recent upcoming match in the future.",
             "warning1": "If there are no upcoming matches, the Action Button simply opens the app. If you haven't been through the starting guide yet, you will need to complete that first.",
             "heading1": "During a Match",
-            "text2": "While in a match, the action button will pause or resume the time."
+            "text2": "While in a match, the action button will start the penaltry corner timer. You can pause or resume the match by pressing the side button and Action Button simultaneously."
         }
     },
     "qna": {
