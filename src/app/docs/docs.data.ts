@@ -16,7 +16,6 @@ export const DOCS: DocSection[] = [
       { type: 'text', content: 'docs.gettingstarted.text1' },
       { type: 'tip', content: 'docs.gettingstarted.tip1' },
       { type: 'text', content: 'docs.gettingstarted.text2' },
-      { type: 'image', src: 'assets/docs/startingguide.png'},
       { type: 'tip', content: 'docs.gettingstarted.tip2' },
     ]
   },
