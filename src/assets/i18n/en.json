@@ -1,14 +1,14 @@
 {
     "home": {
         "title": "Ensure your match goes perfectly with the help of TeamWhistle",
+        "description": "TeamWhistle is here to help. With features such as tracking goals, cards, shootouts and even your location on the pitch, TeamWhistle ensures you always have control over the match.",
+        "learnMore": "Learn More",
         "goals": "TeamWhistle lets you keep a count of the goals for eitherteam and see a history of in which minute every goal was made.",
         "time": "On the main time view you can see the remaining time, but also other helpful information such as the next expiring card or the timer for players to get ready for a penalty corner",
         "cards": "With TeamWhistle you can precisely track each card you give with the backnumber, reason and remaining time.",
         "shootouts": "Every shootout can be individually accounted for and TeamWhistle will let you know when a winner is decided.",
         "workouts": "While running a match, your running speed, distance traveled and heartrate is tracked and saved to your personal health collection.",
-        "customization": "TeamWhistle has highly extensive settings allowing you to control what vibrations, popups and actions occur.",
-        "synchronisationHeadline": "And the biggest feature of all...,",
-        "synchronisation": "Users can allow their match to be synchronisaed across their devices, making sure that every action such as pausing the timer or adding a card also happens for other users. Now you never have to worry about forgetting to resume the time or incorrectly adding a card!"
+        "customization": "TeamWhistle has highly extensive settings allowing you to control what vibrations, popups and actions occur."
     },
     "docs": {
         "whatisteamwhistle": {
@@ -17,7 +17,7 @@
         },
         "gettingstarted": {
             "title": "Getting Started",
-            "text1": "TeamWhistle is currently only for download on the Apple Store. The app is only for Apple Watches with a minimum watchOS version of 9.6.",
+            "text1": "TeamWhistle is currently only for download on the Apple Store. The app is only for Apple Watches with a minimum watchOS version of 10.0.",
             "tip1": "Have you purchased the app but cannot find it on your Apple Watch? Go to the Apple Store, scroll to the bottom, click purchases and search for the TeamWhistle app. Click the download icon to install it on your watch.",
             "text2": "When first opening the app, you will get a starting guide. This will ask for your permission to track your location and workout activity. TeamWhistle will use this data in accordance to our Privacy Policy.",
             "tip2": "You can change your permissions for workouts and locations at any time in the Apple Watch settings app."
@@ -27,10 +27,10 @@
             "text1": "The core functionality of TeamWhistle is to keep track of hockey matches. You can view and create your matches by clicking on the whistle icon at the top of homescreen.",
             "tip1": "At the bottom of the list you can delete all matches. You can also swipe a match row to the left to quickly start or delete it.",
             "heading1": "Creating a Match",
-            "text2": "To create a new match, click on 'Add match' at the top left corner. You will be prompted to enter information about the match such as teams, date, periods and much more. At the first screen you get two rows, the top for the home and the bottom for away team. On the row you can enter the team name by text, otherwise it will default to 'Home/Awayclub'. You can also select the name from a list by tapping the down arrow on the row. Swiping to the right on this view will also allow you to enter the captain numbers of that particular team. Lastly, you can select a color of the team by pressing the colored circle. This will give you a view of all standard colors. If you can't find a color you like, you can also choose from a much larger selection by swiping to the right and clicking the 'Color Picker' button. After you have chosen a color from this view the color will automatically change and you can close the view by tapping on 'Close View'.",
+            "text2": "To create a new match, click on 'Add match' at the top left corner. You will be prompted to enter information about the match such as teams, date, periods and much more. At the first screen you get two rows, the top for the home and the bottom for away team. On the row you can enter the team name by text, otherwise it will default to 'Home/Awayclub'. You can also select the name from a list by tapping the down arrow on the row. Pressing the shirt icon will let you assign the captain number of the team. Lastly, you can select a color of the team by pressing the colored circle. This will give you a view of all standard colors. If you can't find a color you like, you can also choose from a much larger selection by swiping to the right and clicking the 'Color Picker' button. After you have chosen a color from this view the color will automatically change and you can close the view by tapping on 'Close View'.",
             "text3": "On the next page, you can select the date and time and optionally add small text as note about the match.",
-            "text4": "The third page, allows you to add objectives for the match and chose if its either indoor or outdoor. The latter will affect specific rules such as card duration. Objectives are small tasks you can set for yourself to focus on during the match. You can add multiple objectives by clicking the 'Objective' button and clicking add. This will give you list of standard ones or allow you to add your own by pressing the 'Add' button. To delete an objective, simply swipe the row to the left and click trash icon.",
-            "text5": "On the last page you can chose how the periods are managed. The standard is 4x17.5 minutes with 2 minute short breaks and one 5 minute break. You can chose from a list of standard period configurations by pressing the down arrow next to 'Presets'. You can also delete and create a custom configuration by pressing the trash icon at the top right, adding new periods by pressing the plus icon and editing a period by tapping one.",
+            "text4": "The third page, allows you to add objectives for the match and chose what preset you will use. The latter will affect specific rules such as card duration. Presets can be managed in the settings. Objectives are small tasks you can set for yourself to focus on during the match. You can add multiple objectives by clicking the 'Objective' button and clicking add. This will give you list of standard ones or allow you to add your own by pressing the 'Add' button. To delete an objective, simply swipe the row to the left and click trash icon.",
+            "text5": "On the last page you can chose how the periods are managed. The periods will be automatically taken from the preset you have selected in the previous page. The standard is 4x17.5 minutes with 2 minute short breaks and one 5 minute break. You can delete and create a custom configuration by pressing the trash icon at the top right, adding new periods by pressing the plus icon and editing a period by tapping one.",
             "text6": "Once finished you can save the match by pressing 'Create' on the last page. This will add the match to the matches list.",
             "heading2": "Viewing a Match",
             "text7": "To view a match, simply click on one from the matches list. This will open the match view where you can start and manage the match. This will view change depending on if the match has been finished or not. For every match it will show the teams, date, if its indoor or outdoor and your objectives. A match that has not been finished yet will show the periods, otherwise it will show the score and cards in vertical timeline and if there have been any, it will also show you the shootouts.",
@@ -59,14 +59,14 @@
             "text5": "The metrics view shows all workout activity for your match. You can see the elapsed time, heartrate and your total distance covered.",
             "tip4": "Workout metrics are saved to your personal health data and are not stored in TeamWhistle's database. You can manage the data of workouts in the Apple Health app.",
             "heading5": "Settings",
-            "text6": "On the far left tab you have all the settings for the match. You can change the current period, current time, start shootouts and much more. Information about shootouts, synchronisation and location will be provided in other chapters of this documentation.",
+            "text6": "On the far left tab you have all the settings for the match. You can change the current period, current time, start shootouts and much more. Information about shootouts and location will be provided in other chapters of this documentation.",
             "heading6": "Editing or Ending a Match",
             "text7": "Editing a match can be done by pressing the 'Edit Match' button in the settings view. This will give the same interface when editing or adding a match in the matches list menu. When ending a match, you will be taken to a summary of all match statistics such as the goals, cards, shootouts and your workout activity type.",
             "warning3": "While editing a match, if you change the periods in any way the time will be reset to the first period.",
             "heading7": "Extra Views",
             "text8": "In the match settings, you can open extra views such as a checklist and a toss coin. The toss coin view allows randomly flips to say 'Heads' or 'Tails'. You can also chose if the home or away team start the match at the bottom.",
             "heading8": "Corner Icons",
-            "text9": "At the top left you always see certaincorner icons for small information about specific features. The first icon is a running figure indicating if a workout is running. When red, the workout is not running and will not allow your app to track your heart rate and distance or give vibrations while the screen is dimmed. If the figure is yellow, the workout is currently paused and if the figure is green the workout is running and collecting data. If you battery is under 50%, you will get a battery icon with a filled up circle indicating how much your battery percentage is. If the battery is higher than 50% if will be yellow and if it's lower than 25% it will be red. The last icon is a synchronisation icon indicating if synchronisation is running. When green, synchronisation is active and all changes are being synced to other devices. When red, there is an issue with the connection."
+            "text9": "At the top left you always see certaincorner icons for small information about specific features. The first icon is a running figure indicating if a workout is running. When red, the workout is not running and will not allow your app to track your heart rate and distance or give vibrations while the screen is dimmed. If the figure is yellow, the workout is currently paused and if the figure is green the workout is running and collecting data. If you battery is under 50%, you will get a battery icon with a filled up circle indicating how much your battery percentage is. If the battery is higher than 50% if will be yellow and if it's lower than 25% it will be red. An icon will also show if rain or intense heat is expected."
         },
         "shootouts": {
             "title": "Shootouts",
@@ -78,24 +78,6 @@
             "tip1": "TeamWhistle will automatically swap the currently selected team when going to a new series. You will also be given a small text at the top if there are enough shootouts to guarantee a winner.",
             "heading3": "Ending Shootouts",
             "text4": "To end shootouts, simply go back to the settings view and press the 'End Shootouts' button. This will bring you back to the normal time and goals view."
-        },
-        "synchronisation": {
-            "title": "Synchronisation",
-            "text1": "TeamWhistle has a revolutionary synchronisation system that allows you to seamlessly sync your match data with your colleagues. This system is designed so that no matter how many devices you use, your data remains consistent and up-to-date with all other devices to avoid having one person forget to start the time or incorrectly record a goal.",
-            "warning1": "Synchronisation requires an internet connection. If you are using an Apple Watch, ensure it has a cellular connection or is paired with a nearby iPhone that is connected to the internet.",
-            "warning2": "When using synchronisation TeamWhistle collects data from the match to our cloud hosted servers. For more information, please see our privacy policy.",
-            "heading1": "Hosting a Match",
-            "text2": "To host a match, go to the settings view and press the 'Synchronisation' button. You will be prompted to give your name to identify yourself to others. Click the launch button to launch your app to the server. Once launched, you will be shown a list of all joined players aswell as a 4 letter key which can be used by others to join you.",
-            "warning3": "The server used for synchronisation needs to wake in order to function properly. When joining or hosting a match, the app will check if a connection is available. Please be patient with this process as it may take a few minutes to wake a server that hasnt had any activity recently.",
-            "heading2": "Joining a Match",
-            "text3": "To join a match, go to the matches list and press the menu button on the top right. Then click the 'Join Match' option and enter the 4 letter key provided by the host aswell as your name to identify yourself to others. Once joined, you will be brought to the match views just like how you would normally when starting your own match.",
-            "warning4": "The server used for synchronisation needs to wake in order to function properly. When joining or hosting a match, the app will check if a connection is available. Please be patient with this process as it may take a few minutes to wake a server that hasnt had any activity recently.",
-            "heading3": "Synchronisation during a Match",
-            "text4": "When synchronisation is running, every action that changes time, cards or goals is automatically synced to all other devices in real-time. If a user starts or stops shootouts this will also happen to all other devices. It may take a few seconds for this to happen to all devices. A small synchronisation icon will be present at the top left corner of the screen. When green, it indicates that your connection is secure. If red there is something wrong with the connection.",
-            "tip1": "When in synchronisation, you can see all participants in the synchronisation view in the settings. A crown icon will be next to the name of the person that hosted the match.",
-            "heading4": "Ending synchronisation",
-            "text5": "To end synchronisation, simply go back to the settings view and press the 'Synchronisation' button. Press the 'Disband' button to end the synchronisation session for you. This will not bring you out the match and you can continue to run the match as normal.",
-            "warning5": "When disbanding synchronisation, only you will be disconnected. All other devices running synchronisation will continue to run. Your name will also still be visible to others on their list. Matches that haven't been modified for 3 hours will be deleted from the server."
         },
         "location": {
             "title": "Location",
@@ -117,8 +99,10 @@
             "text3": "You can change the amount of seconds remaining during a break to give a vibration. You can also change the amount of seconds for the countdown timer. Lastly, you can enable automatic time pausing when adding a goal or starting the penalty corner seconds.",
             "heading2": "Notifications",
             "text4": "When the timer or a card is finished, you can choose what vibration you want to receive and for how long. When 'None' is selected, no vibration or notification will be sent. You can also chose how often to receive a vibration when the timer is paused. If you have chosen 'None', no vibration will be sent.",
-            "heading3": "Other",
-            "text5": "In the other settings you can firstly decide what happens when scrolling the Digital Crown while the time view is opened. You can select from a number of different actions. You can also chose to automatically go back to the time view when the apple watch is dimmed, which usually happens when you lower your wrist. This is useful if you also want to see the time view when lifting your wrist to look at the app. The club list country lets you chose what country's clubs to display in the club list when going to the club presets when adding a match. You can also chose the reasons available when adding a card. You can delete one reason by pressing the trash icon to the right of a row for the reason. Lastly, you can chose what items in your checklist are present in the extra views during a match. You can delete one item by pressing the trash icon to the right of a row for the item.",
+            "heading3": "Presets",
+            "text5": "In the presets settings you can choose how the presets are managed. You can create a custom configuration or delete one by pressing the trash icon. You can also add new presets with the plus icon and edit an existing one by tapping it.",
+            "heading4": "Other",
+            "text6": "In the other settings you can firstly decide what happens when scrolling the Digital Crown while the time view is opened. You can select from a number of different actions. You can also chose to automatically go back to the time view when the apple watch is dimmed, which usually happens when you lower your wrist. This is useful if you also want to see the time view when lifting your wrist to look at the app. The club list country lets you chose what country's clubs to display in the club list when going to the club presets when adding a match. You can also chose the reasons available when adding a card. You can delete one reason by pressing the trash icon to the right of a row for the reason. Lastly, you can chose what items in your checklist are present in the extra views during a match. You can delete one item by pressing the trash icon to the right of a row for the item.",
             "tip2": "You can hold a row of a checklist or card reason and drag it up or down to reorder the it on list."
         },
         "actionbutton": {
@@ -133,7 +117,7 @@
         "title": "Questions & Answers",
         "q1": {
             "q": "Where is TeamWhistle available?",
-            "a": "TeamWhistle is only available on Apple Watches with a minimum watchOS version of 9.6."
+            "a": "TeamWhistle is only available on Apple Watches with a minimum watchOS version of 10.0. In the future we may consider adding support for other platforms, but currently we are focused on providing the best experience for Apple Watch users."
         },
         "q2": {
             "q": "How do I install TeamWhistle?",
@@ -149,7 +133,7 @@
         },
         "q5": {
             "q": "How can I reach you?",
-            "a": "I can be reached via the Contact page on this site via the 'Contact' link in the top navigation bar. You can also give me a message on Discord via our server available by clicking the Discord icon at the bottom of this page. I can also be reached at developmenthawkeye@gmail.com."
+            "a": "I can be reached via the Contact page on this site via the 'Contact' link in the top navigation bar. You can also give me a message on Instagram or Discord via our server available by clicking the Discord icon at the bottom of this page."
         }
     }
 }

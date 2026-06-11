@@ -6,7 +6,7 @@ export const DOCS: DocSection[] = [
     title: 'docs.whatisteamwhistle.title',
     blocks: [
       { type: 'text', content: 'docs.whatisteamwhistle.text1' },
-      { type: 'image', src: 'assets/favicon.ico' },
+      { type: 'image', src: 'assets/teamwhistle.jpg' },
     ]
   },
   {
@@ -102,30 +102,6 @@ export const DOCS: DocSection[] = [
     ]
   },
   {
-    id: 'Synchronisation',
-    title: 'docs.synchronisation.title',
-    blocks: [
-      { type: 'text', content: 'docs.synchronisation.text1' },
-      { type: 'warning', content: 'docs.synchronisation.warning1' },
-      { type: 'warning', content: 'docs.synchronisation.warning2' },
-      { type: 'heading', content: 'docs.synchronisation.heading1' },
-      { type: 'text', content: 'docs.synchronisation.text2' },
-      { type: 'image', src: 'assets/docs/hostmatch.png'},
-      { type: 'warning', content: 'docs.synchronisation.warning3' },
-      { type: 'heading', content: 'Joining a Match' },
-      { type: 'text', content: 'To join a match, go to the matches list and press the menu button on the top right. Then click the "Join Match" option and enter the 4 letter key provided by the host aswell as your name to identify yourself to others. Once joined, you will be brought to the match views just like how you would normally when starting your own match.' },
-      { type: 'image', src: 'assets/docs/joinmatch.png'},
-      { type: 'warning', content: 'docs.synchronisation.warning4' },
-      { type: 'heading', content: 'docs.synchronisation.heading2' },
-      { type: 'text', content: 'docs.synchronisation.text3' },
-      { type: 'image', src: 'assets/docs/synchronisation.png'},
-      { type: 'tip', content: 'docs.synchronisation.tip1' },
-      { type: 'heading', content: 'docs.synchronisation.heading3' },
-      { type: 'text', content: 'docs.synchronisation.text4' },
-      { type: 'warning', content: 'docs.synchronisation.warning5' },
-    ]
-  },
-  {
     id: 'location',
     title: 'docs.location.title',
     blocks: [
@@ -153,6 +129,8 @@ export const DOCS: DocSection[] = [
       { type: 'text', content: 'docs.settings.text4' },
       { type: 'heading', content: 'docs.settings.heading3' },
       { type: 'text', content: 'docs.settings.text5' },
+      { type: 'heading', content: 'docs.settings.heading4' },
+      { type: 'text', content: 'docs.settings.text6' },
       { type: 'tip', content: 'docs.settings.tip2' },
     ]
   },
