@@ -1,14 +1,14 @@
 {
     "home": {
         "title": "Zorg dat je wedstrijd perfect verloopt met TeamWhistle",
+        "description": "TeamWhistle is hier om te helpen. Met functies zoals het bijhouden van doelpunten, kaarten, shootouts en zelfs je locatie op het veld, zorgt TeamWhistle ervoor dat je altijd de controle hebt over de wedstrijd.",
+        "learnMore": "Leer meer",
         "goals": "TeamWhistle laat je het aantal doelpunten bijhouden voor elk team en toont een geschiedenis van in welke minuut elk doelpunt werd gemaakt.",
         "time": "Op het hoofdscherm van de tijd zie je de resterende tijd, maar ook andere nuttige informatie zoals de eerstvolgende verstrijkende kaart of de timer voor spelers om zich klaar te maken voor een strafcorner.",
         "cards": "Met TeamWhistle kun je nauwkeurig elke kaart bijhouden met rugnummer, reden en resterende tijd.",
         "shootouts": "Elke shootout kan individueel worden bijgehouden en TeamWhistle laat je weten wanneer er een winnaar is bepaald.",
         "workouts": "Tijdens een wedstrijd worden je loopsnelheid, afgelegde afstand en hartslag gevolgd en opgeslagen in je persoonlijke gezondheidsgegevens.",
-        "customization": "TeamWhistle heeft zeer uitgebreide instellingen waarmee je kunt bepalen welke trillingen, pop-ups en acties plaatsvinden.",
-        "synchronisationHeadline": "En de grootste functie van allemaal...,",
-        "synchronisation": "Gebruikers kunnen hun wedstrijd synchroniseren over hun apparaten, zodat elke actie zoals het pauzeren van de timer of het toevoegen van een kaart ook gebeurt bij andere gebruikers. Nu hoef je je nooit meer zorgen te maken over het vergeten van de tijd hervatten of het verkeerd toevoegen van een kaart!"
+        "customization": "TeamWhistle heeft zeer uitgebreide instellingen waarmee je kunt bepalen welke trillingen, pop-ups en acties plaatsvinden."
     },
     "docs": {
         "whatisteamwhistle": {
@@ -16,8 +16,8 @@
             "text1": "TeamWhistle is een watchOS-app voor hockeyscheidsrechters om informatie van wedstrijden bij te houden. De app heeft veel verschillende functies en is uitgebreid ontwikkeld om in elk gebruiksscenario te helpen."
         },
         "gettingstarted": {
-            "title": "Aan de slag",
-            "text1": "TeamWhistle is momenteel alleen te downloaden via de Apple Store. De app is alleen beschikbaar voor Apple Watches met minimaal watchOS versie 9.6.",
+            "title": "Beginnen met TeamWhistle",
+            "text1": "TeamWhistle is momenteel alleen te downloaden via de Apple Store. De app is alleen beschikbaar voor Apple Watches met minimaal watchOS versie 10.0.",
             "tip1": "Heb je de app gekocht maar kun je deze niet vinden op je Apple Watch? Ga naar de Apple Store, scroll naar beneden, klik op Aankopen en zoek de TeamWhistle-app. Klik op het downloadpictogram om deze op je watch te installeren.",
             "text2": "Bij het eerste openen van de app krijg je een startgids. Deze vraagt om je toestemming om je locatie en trainingsactiviteit bij te houden. TeamWhistle gebruikt deze gegevens in overeenstemming met ons privacybeleid.",
             "tip2": "Je kunt je toestemming voor workouts en locatie op elk moment wijzigen in de instellingen van je Apple Watch."
@@ -27,10 +27,10 @@
             "text1": "De kernfunctionaliteit van TeamWhistle is het bijhouden van hockeywedstrijden. Je kunt je wedstrijden bekijken en aanmaken door op het fluitpictogram bovenaan het startscherm te klikken.",
             "tip1": "Onderaan de lijst kun je alle wedstrijden verwijderen. Je kunt ook een wedstrijdrij naar links vegen om deze snel te starten of te verwijderen.",
             "heading1": "Een wedstrijd aanmaken",
-            "text2": "Om een nieuwe wedstrijd aan te maken, klik je op 'Add Match' linksboven. Je wordt gevraagd informatie over de wedstrijd in te voeren, zoals teams, datum, periodes en meer. Op het eerste scherm zie je twee rijen, de bovenste voor het thuisteam en de onderste voor het uitteam. In de rij kun je de teamnaam invoeren met tekst, anders wordt dit standaard 'Home/Awayclub'. Je kunt ook een naam selecteren uit een lijst door op het pijltje naar beneden op de rij te tikken. Veeg naar rechts in dit scherm om de kapiteinnummers van dat team in te voeren. Ten slotte kun je een kleur voor het team kiezen door op de gekleurde cirkel te drukken. Dit geeft een overzicht van standaardkleuren. Als je de gewenste kleur niet kunt vinden, kun je ook kiezen uit een veel grotere selectie door naar rechts te vegen en op de knop 'Color Picker' te klikken. Nadat je een kleur hebt gekozen, verandert deze automatisch en kun je het scherm sluiten door op 'Close' te tikken.",
+            "text2": "Om een nieuwe wedstrijd aan te maken, klik je op 'Add Match' linksboven. Je wordt gevraagd informatie over de wedstrijd in te voeren, zoals teams, datum, periodes en meer. Op het eerste scherm zie je twee rijen, de bovenste voor het thuisteam en de onderste voor het uitteam. In de rij kun je de teamnaam invoeren met tekst, anders wordt dit standaard 'Home/Awayclub'. Je kunt ook een naam selecteren uit een lijst door op het pijltje naar beneden op de rij te tikken. Door op het shirt icon te klikken kun je de kapiteinnummer van dat team invoeren. Ten slotte kun je een kleur voor het team kiezen door op de gekleurde cirkel te drukken. Dit geeft een overzicht van standaardkleuren. Als je de gewenste kleur niet kunt vinden, kun je ook kiezen uit een veel grotere selectie door naar rechts te vegen en op de knop 'Color Picker' te klikken. Nadat je een kleur hebt gekozen, verandert deze automatisch en kun je het scherm sluiten door op 'Close' te tikken.",
             "text3": "Op de volgende pagina kun je de datum en tijd selecteren en optioneel een kleine notitie toevoegen over de wedstrijd.",
-            "text4": "De derde pagina stelt je in staat doelstellingen voor de wedstrijd toe te voegen en te kiezen of het een binnen- of buitenwedstrijd is. Dit beïnvloedt specifieke regels zoals de duur van kaarten. Doelstellingen zijn kleine taken die je voor jezelf kunt instellen om op de wedstrijd te focussen. Je kunt meerdere doelstellingen toevoegen door op de knop 'Objectives' te klikken en vervolgens op 'Add'. Dit geeft een lijst van standaarddoelstellingen of je kunt je eigen toevoegen door op 'Add' te drukken. Om een doelstelling te verwijderen, veeg je de rij naar links en klik je op het prullenbakpictogram.",
-            "text5": "Op de laatste pagina kun je kiezen hoe de periodes worden beheerd. Standaard is dit 4x17,5 minuten met korte pauzes van 2 minuten en één pauze van 5 minuten. Je kunt kiezen uit een lijst van standaardperiodeconfiguraties door op het pijltje naast 'Presets' te drukken. Je kunt ook een aangepaste configuratie maken of verwijderen door op het prullenbakpictogram rechtsboven te drukken, nieuwe periodes toevoegen met het plus-icoon en een periode bewerken door erop te tikken.",
+            "text4": "De derde pagina stelt je in staat doelstellingen voor de wedstrijd toe te voegen en een preset te kiezen. Welke preset je kiest beïnvloedt specifieke regels zoals de duur van kaarten. De presets kun je veranderen in de instellingen. Doelstellingen zijn kleine taken die je voor jezelf kunt instellen om op de wedstrijd te focussen. Je kunt meerdere doelstellingen toevoegen door op de knop 'Objectives' te klikken en vervolgens op 'Add'. Dit geeft een lijst van standaarddoelstellingen of je kunt je eigen toevoegen door op 'Add' te drukken. Om een doelstelling te verwijderen, veeg je de rij naar links en klik je op het prullenbakpictogram.",
+            "text5": "Op de laatste pagina kun je kiezen hoe de periodes worden beheerd. Er wordt automatisch gekozen voor de periodes uit de preset van de vorige pagina. Standaard is dit 4x17,5 minuten met korte pauzes van 2 minuten en één pauze van 5 minuten. Je kan een aangepaste configuratie maken of verwijderen door op het prullenbakpictogram rechtsboven te drukken, nieuwe periodes toevoegen met het plus-icoon en een periode bewerken door erop te tikken.",
             "text6": "Als je klaar bent, kun je de wedstrijd opslaan door op 'Create' op de laatste pagina te drukken. De wedstrijd wordt dan toegevoegd aan de lijst met wedstrijden.",
             "heading2": "Een wedstrijd bekijken",
             "text7": "Om een wedstrijd te bekijken, klik je op een wedstrijd uit de lijst. Dit opent het wedstrijdscherm waar je de wedstrijd kunt starten en beheren. Het scherm verandert afhankelijk van of de wedstrijd al is afgerond. Voor elke wedstrijd worden de teams, datum, binnen of buiten en je doelstellingen weergegeven. Een wedstrijd die nog niet is afgerond toont de periodes, anders worden de score en kaarten in een verticale tijdlijn weergegeven, en als die er zijn, ook de shootouts.",
@@ -59,14 +59,14 @@
             "text5": "Het statistiekenscherm toont alle trainingsactiviteit tijdens de wedstrijd. Je ziet de verstreken tijd, hartslag en afgelegde afstand.",
             "tip4": "Trainingsgegevens worden opgeslagen in je persoonlijke gezondheidsgegevens en niet in de TeamWhistle-database. Beheer deze in de Apple Health-app.",
             "heading5": "Instellingen",
-            "text6": "Op het meest linkse tabblad vind je alle wedstrijdinstellingen. Je kunt periodes wijzigen, tijd aanpassen, shootouts starten en meer. Informatie over shootouts, synchronisatie en locatie vind je in andere hoofdstukken.",
+            "text6": "Op het meest linkse tabblad vind je alle wedstrijdinstellingen. Je kunt periodes wijzigen, tijd aanpassen, shootouts starten en meer. Informatie over shootouts en locatie vind je in andere hoofdstukken.",
             "heading6": "Een wedstrijd bewerken of beëindigen",
             "text7": "Bewerken kan via 'Edit Match' in het instellingen-scherm. Dit opent dezelfde interface als bij aanmaken of bewerken van een wedstrijd. Bij beëindigen krijg je een overzicht van statistieken zoals doelpunten, kaarten, shootouts en trainingsactiviteit.",
             "warning3": "Bij wijzigen van periodes wordt de tijd teruggezet naar de eerste periode.",
             "heading7": "Extra schermen",
             "text8": "In de instellingen kun je extra schermen openen zoals een checklist en muntopgooi. De muntopgooi toont willekeurig 'Heads' of 'Tails'. Je kunt ook kiezen welk team start.",
             "heading8": "Pictogrammen bovenin",
-            "text9": "Linksboven zie je pictogrammen voor kleine informatie. Een hardloopfiguur geeft aan of een training loopt. Rood = niet actief, geel = gepauzeerd, groen = actief. Bij batterij <50% verschijnt een pictogram met een gedeeltelijk gevulde circel radius in relatie met je huide batterij perfcentage. Als de circel geel is is het tussen 50 en 25 procent. Als het rood is dan is je batterij onder 25 procent. Het laatste pictogram is voor synchronisatie: groen = actief, rood = fout by het ophalen van data uit de server."
+            "text9": "Linksboven zie je pictogrammen voor kleine informatie. Een hardloopfiguur geeft aan of een training loopt. Rood = niet actief, geel = gepauzeerd, groen = actief. Bij batterij <50% verschijnt een pictogram met een gedeeltelijk gevulde circel radius in relatie met je huide batterij perfcentage. Als de circel geel is is het tussen 50 en 25 procent. Als het rood is dan is je batterij onder 25 procent. Ook kan een pictogram verschijnen als er regen of intense hitte wordt verwacht."
         },
         "shootouts": {
             "title": "Shootouts",
@@ -78,24 +78,6 @@
             "tip1": "TeamWhistle wisselt automatisch het geselecteerde team bij een nieuwe serie. Bovenaan zie je een klein bericht als er genoeg shootouts zijn om een winnaar te garanderen.",
             "heading3": "Shootouts beëindigen",
             "text4": "Om shootouts te beëindigen, ga terug naar het instellingen-scherm en druk op 'Stop Shootouts'. Je keert terug naar de normale tijd- en doelpuntenweergave."
-        },
-        "synchronisation": {
-            "title": "Synchronisatie",
-            "text1": "TeamWhistle heeft een revolutionair synchronisatiesysteem waarmee je wedstrijdgegevens naadloos kunt delen met collega’s. Hierdoor blijven alle apparaten up-to-date en consistent, zodat niemand vergeet de tijd te starten of een doelpunt verkeerd noteert.",
-            "warning1": "Synchronisatie vereist een internetverbinding. Zorg dat je Apple Watch een mobiele verbinding heeft of gekoppeld is aan een iPhone met internet.",
-            "warning2": "Bij synchronisatie verzamelt TeamWhistle wedstrijdgegevens op onze cloudservers. Zie ons privacybeleid voor meer informatie.",
-            "heading1": "Een wedstrijd hosten",
-            "text2": "Ga naar instellingen en druk op de knop 'Synchronisation'. Geef je naam op om jezelf te identificeren en klik op 'Launch' om verbinding te maken met de server. Je ziet een lijst van aangesloten spelers en een 4-lettercode die anderen kunnen gebruiken om deel te nemen.",
-            "warning3": "De server moet actief zijn om te functioneren. Het kan enkele minuten duren voordat een inactieve server reageert.",
-            "heading2": "Deelnemen aan een wedstrijd",
-            "text3": "Ga naar de wedstrijddlijst, druk op het menu rechtsboven en kies 'Join a Match'. Voer de 4-lettercode van de host en je naam in. Je wordt naar de wedstrijdweergave gebracht zoals bij het starten van een eigen wedstrijd.",
-            "warning4": "De server moet actief zijn om correct te functioneren. Dit kan enkele minuten duren als de server recent niet actief was.",
-            "heading3": "Synchronisatie tijdens een wedstrijd",
-            "text4": "Tijdens synchronisatie worden alle acties zoals tijd, kaarten of doelpunten automatisch in realtime gesynchroniseerd. Het kan enkele seconden duren voordat alle apparaten up-to-date zijn. Een klein synchronisatie-icoon verschijnt linksboven: groen = verbinding goed, rood = fout.",
-            "tip1": "In het synchronisatie-scherm in instellingen zie je alle deelnemers. Een kroon-icoon staat naast de host.",
-            "heading4": "Synchronisatie beëindigen",
-            "text5": "Ga naar instellingen en druk op 'Synchronisation'. Klik op 'Disband' om de synchronisatie voor jezelf te beëindigen. Je blijft de wedstrijd gewoon runnen.",
-            "warning5": "Alle andere apparaten blijven verbonden. Je naam blijft zichtbaar voor anderen. Wedstrijden die 3 uur niet zijn gewijzigd, worden verwijderd van de server."
         },
         "location": {
             "title": "Locatie",
@@ -117,8 +99,10 @@
             "text3": "Pas ook de seconden voor pauzes aan, de afteltimer, en schakel automatisch pauzeren in bij het toevoegen van een doelpunt of starten van een strafcorneraftelling.",
             "heading2": "Notificaties",
             "text4": "Kies de trilling en duur bij het einde van de timer of een kaart. Bij 'None' wordt geen trilling of notificatie gegeven. Pas ook de frequentie van trillingen tijdens gepauzeerde tijd aan.",
-            "heading3": "Overige",
-            "text5": "Hier stel je in wat de Digital Crown doet op het tijdscherm, automatische terugkeer naar tijdscherm bij dimmen, land van clublijst, redenen voor kaarten en items in checklist voor extra schermen. Verwijder items via het prullenbak-icoon.",
+            "heading3": "Presets",
+            "text5":"Op de laatste pagina kun je kiezen hoe de presets worden beheerd. Je kan een aangepaste configuratie maken of verwijderen door op het prullenbakpictogram te klikken.",
+            "heading4": "Overige",
+            "text6": "Hier stel je in wat de Digital Crown doet op het tijdscherm, automatische terugkeer naar tijdscherm bij dimmen, land van clublijst, redenen voor kaarten en items in checklist voor extra schermen. Verwijder items via het prullenbak-icoon.",
             "tip2": "Houd een rij van checklist of kaartreden ingedrukt en sleep om de volgorde te wijzigen."
         },
         "actionbutton": {
@@ -133,7 +117,7 @@
         "title": "Veelgestelde vragen",
         "q1": {
             "q": "Waar is TeamWhistle beschikbaar?",
-            "a": "TeamWhistle is alleen beschikbaar voor Apple Watches met minimaal watchOS versie 9.6."
+            "a": "TeamWhistle is alleen beschikbaar voor Apple Watches met minimaal watchOS versie 10.0. In de toekomst kunnen we overwegen om ondersteuning voor andere platforms toe te voegen, maar momenteel richten we ons op het bieden van de beste ervaring voor Apple Watch-gebruikers."
         },
         "q2": {
             "q": "Hoe installeer ik TeamWhistle?",
@@ -149,7 +133,7 @@
         },
         "q5": {
             "q": "Hoe kan ik contact opnemen?",
-            "a": "Via de Contactpagina op deze site (link bovenin) of via onze Discord-server (icoon onderaan). Je kunt ook een e-mail sturen naar developmenthawkeye@gmail.com."
+            "a": "Via de Contactpagina op deze site (link bovenin), stuur een bericht naar de TeamWhistle Instagram of Discord via onze Discord-server (icoon onderaan)."
         }
     }
 }
